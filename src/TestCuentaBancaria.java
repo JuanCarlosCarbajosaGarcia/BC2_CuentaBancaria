@@ -5,5 +5,11 @@ public class TestCuentaBancaria {
         System.out.println(cuentaMaria);
 
         System.out.println("titular: " + cuentaMaria.getTitular());
+
+        cuentaMaria.ingresar(2195.12);
+
+        System.out.println(cuentaMaria);
+
+        cuentaMaria.retirar(2345.42);
     }
 }
